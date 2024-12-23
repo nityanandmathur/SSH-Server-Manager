@@ -1,2 +1,11 @@
 # SSH-Server-Manager
-PyQt5 utility to manage SSH servers.
+
+## Pre-requisites
+```bash
+pip install PyQt5
+```
+
+## Desktop App
+```bash
+pyinstaller --name "SSHServerManager" --windowed --icon=poc.png servers.py
+```
